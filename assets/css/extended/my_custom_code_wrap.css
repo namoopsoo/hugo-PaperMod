@@ -1,3 +1,20 @@
 code {
     white-space: pre-wrap !important;
 }
+
+/*Using .row, .col-sm from here, 
+https://getbootstrap.com/docs/4.0/layout/grid/ 
+*/
+.row {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
